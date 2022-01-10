@@ -44,7 +44,6 @@ const altNumbers = (numArray) => {
         }
     }
 
-    // 
     if (negative.length > positive.length) {
         while (positive.length != 0) {
             alternate.push(negative.shift());
